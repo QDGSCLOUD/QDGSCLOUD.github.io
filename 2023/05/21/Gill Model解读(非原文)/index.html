@@ -5,7 +5,7 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <title>
       
-        Gill Model解读 | Hexo
+        Gill Model 笔记(作业) | Hexo
       
     </title>
     <meta name="description" content=""/>
@@ -64,25 +64,20 @@
   <article class="post-content">
     <div class="post-inner">
       <div class="post-content__head">
-        <div class="post-title">Gill Model解读</div>
+        <div class="post-title">Gill Model 笔记(作业)</div>
         <div class="post-info">
           
+  
+    <a href="/tags/%E5%A4%A7%E6%B0%94%E7%A7%91%E5%AD%A6/" class="post-tag">#大气科学</a>
   
 
 
           <span class="post-date">2023-05-21</span>
         </div>
       </div>
-      <div id="postBody" class="post-content__body--toc">
+      <div id="postBody" class="post-content__body">
         <div id="tocAnchor" class="toc-anchor">
           <ol id="toc" class="post-toc">
-            
-              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%91%98%E8%A6%81"><span class="toc-text">摘要</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%95%E8%A8%80"><span class="toc-text">引言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E7%BD%AE%E7%9F%A5%E8%AF%86"><span class="toc-text">前置知识</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#response-of-the-tropical-atmosphere-to-symmetric-heating"><span class="toc-text">Response
-of the tropical atmosphere to symmetric heating</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#the-linear-model"><span class="toc-text">The linear model</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%83%AD%E5%B8%A6%E5%9C%B0%E5%8C%BA%E7%A8%B3%E5%AE%9A%E5%BC%BA%E8%BF%AB%E8%BF%90%E5%8A%A8%E7%9A%84%E6%8E%A8%E5%AF%BC"><span class="toc-text">热带地区稳定强迫运动的推导:</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#the-longwave-approximation"><span class="toc-text">The longwave approximation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#forcing-function"><span class="toc-text">Forcing function</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%A8%E5%AF%BC%E5%90%91%E4%B8%9C%E6%96%B9%E5%90%91%E4%BC%A0%E6%92%AD%E7%9A%84%E5%93%8D%E5%BA%94-kelvin-wave"><span class="toc-text">推导向东方向传播的响应
-(Kelvin Wave)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E9%9D%A2%E6%8E%A8%E5%AF%BC%E7%9A%84%E6%98%AF%E5%90%91%E8%A5%BF%E4%BC%A0%E6%92%AD%E7%9A%84%E5%93%8D%E5%BA%94-rossby-wav"><span class="toc-text">下面推导的是向西传播的响应
-Rossby Wav</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%BC%E5%90%88%E5%88%86%E6%9E%90rossby-%E6%B3%A2-%E5%92%8C-kelvin%E6%B3%A2"><span class="toc-text">综合分析Rossby 波 和
-Kelvin波</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#response-of-the-tropical-atmosphere-to-asymmetric-heating"><span class="toc-text">Response
-of the tropical atmosphere to asymmetric heating</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B7%B7%E5%90%88%E5%8A%A0%E7%83%AD"><span class="toc-text">混合加热</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#reference"><span class="toc-text">Reference</span></a></li></ol>
             
           </ol>
         </div>
@@ -878,24 +873,23 @@ alt="image-20230520214618745" />
     
     <div class="post-nav">
   
-    <div class="post-nav-item-left"></div>
-  
-  <div class="vhr"></div>
-  
-    <a class="post-nav-item-right" href="/2023/05/21/AWVS%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">
+    <a class="post-nav-item-left" href="/2023/05/21/hello-world/">
       <div class="text-align">
-        <span class="text-small">下一篇</span>
         <svg t="1670570876164"
              class="icon"
              viewBox="0 0 1024 1024"
-             transform="scale(-1,-1)"
              width="16"
              height="16">
           <path d="M384 512L731.733333 202.666667c17.066667-14.933333 19.2-42.666667 4.266667-59.733334-14.933333-17.066667-42.666667-19.2-59.733333-4.266666l-384 341.333333c-10.666667 8.533333-14.933333 19.2-14.933334 32s4.266667 23.466667 14.933334 32l384 341.333333c8.533333 6.4 19.2 10.666667 27.733333 10.666667 12.8 0 23.466667-4.266667 32-14.933333 14.933333-17.066667 14.933333-44.8-4.266667-59.733334L384 512z" p-id="14596"/>
         </svg>
+        <span class="text-small">上一篇</span>
       </div>
-      未命名
+      <div>Hello World</div>
     </a>
+  
+  <div class="vhr"></div>
+  
+    <div class="post-nav-item-right"></div>
   
 </div>
 
@@ -999,8 +993,6 @@ alt="image-20230520214618745" />
     
     
   
-  
-    <script type="text/javascript" src=/js/toc.js></script>
   
 
   </body>
