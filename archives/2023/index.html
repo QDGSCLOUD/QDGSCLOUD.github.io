@@ -49,7 +49,11 @@
         <input id="navBtn" type="checkbox"/>
         <div class="nav-menu">
           
-            <a href="/blog/">博客</a>
+            
+              <a class="nav-menu-item" href="/page1">子页一</a>
+            
+              <a class="nav-menu-item" href="/page2">子页二</a>
+            
           
         </div>
         <label class="nav-btn" for="navBtn"></label>
@@ -139,8 +143,8 @@
             </div>
           
             <div class="radio">
-              <input id="radio-app" type="checkbox"  checked />
-              <label class="radio-skin--app" for="radio-app"></label>
+              <input id="radio-apps" type="checkbox"  checked />
+              <label class="radio-skin--apps" for="radio-apps"></label>
             </div>
           
             <div class="radio">
@@ -386,7 +390,7 @@
   
     
   <script type="text/javascript">
-    const timelineData = {"types":["article","app","event"],"posts":[]}
+    const timelineData = {"types":["article","apps","event"],"posts":[]}
     const {types, posts} = timelineData
     listEl = document.querySelector("#timeline-list");
 

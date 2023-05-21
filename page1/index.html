@@ -5,7 +5,7 @@
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <title>
       
-        Hello World | Hexo
+        子页一 | Hexo
       
     </title>
     <meta name="description" content=""/>
@@ -36,8 +36,7 @@
     <link rel="stylesheet" type="text/css" href="/css/layout.css"/>
     
     
-  <link rel="stylesheet" type="text/css" href="/css/post.css"/>
-  
+  <link rel="stylesheet" type="text/css" href="/css/category.css" />
 
   <meta name="generator" content="Hexo 6.3.0"></head>
   <body>
@@ -61,97 +60,54 @@
     </div>
     <div class="body">
       
-  <article class="post-content">
-    <div class="post-inner">
-      <div class="post-content__head">
-        <div class="post-title">Hello World</div>
-        <div class="post-info">
-          
-  
-
-
-          <span class="post-date">2023-05-21</span>
-        </div>
+  <div class="wall wall-category">
+    <div class="wall-main">
+      <div class="wall-category-title">
+        <div class="title-icon"
+             style="background-image: url(/images/icon/icon-code.svg)"></div>
+        子页一
       </div>
-      <div id="postBody" class="post-content__body">
-        <div id="tocAnchor" class="toc-anchor">
-          <ol id="toc" class="post-toc">
+      <div class="wall-category-description"></div>
+      <div class="wall-category-tags">
+        <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.min.js"></script>
+        <script type = "text/javascript">
+          window.onload = function() {
+              try {
+                  TagCanvas.Start('tagCanvas', '', {
+                      outlineThickness: 1,
+                      maxSpeed: 0.03,
+                      // freezeActive: true,
+                      // freezeDecel: true,
+                      textColour: null,
+                      textColour: null,
+                      outlineColour: "#aaa",
+                      weight: true,
+                      padding: 4,
+                      // clickToFront: 200,
+                      fadIn: 200,
+                      // pinchZoom: true,
+                      wheelZoom: false,
+                      initial: [0.1, -0.03]
+                  });
+              } catch (e) {
+                  // something went wrong, hide the canvas container
+                  document.getElementById('tags-outer').style.display = 'none';
+              }
+          };
+        </script>
+        <div id="tags-outer">
+          <canvas width="500" height="500" id="tagCanvas">
             
-          </ol>
+              
+            
+          </canvas>
         </div>
-        
-          <div class="post-gallery">
-            
-          </div>
-        
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
       </div>
     </div>
-  </article>
-  <div class="post__foot">
-    
-      <div class="like-author">
-  <input type="checkbox" id="likeCode" />
-  <div class="author-face">
-    <img height="100px"
-         width="100px"
-         id="front-face"
-         alt="author face"
-         src=""/>
-    <img height="100px"
-         width="100px"
-         id="back-face"
-         alt="like code"
-         src=""/>
   </div>
-  <div class="like-text">“请作者喝杯咖啡”</div>
-  <label for="likeCode" class="like-btn">
-    <svg viewBox="0 0 1024 1024"
-         width="20px"
-         style="margin-right: 10px"
-         height="20px">
-      <path d="M466.88 908.96L113.824 563.296a270.08 270.08 0 0 1 0-387.392c108.8-106.56 284.896-106.56 393.696 0 1.504 1.472 2.976 2.944 4.448 4.48 1.472-1.536 2.944-3.008 4.448-4.48 108.8-106.56 284.896-106.56 393.696 0a269.952 269.952 0 0 1 34.016 347.072l-387.392 385.6a64 64 0 0 1-89.92 0.384z" p-id="13650" fill="#ee4242"/>
-    </svg>
-    喜欢作者
-  </label>
-</div>
-
+  <div class="post-list">
     
-    <div class="post-nav">
-  
-    <a class="post-nav-item-left" href="/2023/05/21/AWVS%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">
-      <div class="text-align">
-        <svg t="1670570876164"
-             class="icon"
-             viewBox="0 0 1024 1024"
-             width="16"
-             height="16">
-          <path d="M384 512L731.733333 202.666667c17.066667-14.933333 19.2-42.666667 4.266667-59.733334-14.933333-17.066667-42.666667-19.2-59.733333-4.266666l-384 341.333333c-10.666667 8.533333-14.933333 19.2-14.933334 32s4.266667 23.466667 14.933334 32l384 341.333333c8.533333 6.4 19.2 10.666667 27.733333 10.666667 12.8 0 23.466667-4.266667 32-14.933333 14.933333-17.066667 14.933333-44.8-4.266667-59.733334L384 512z" p-id="14596"/>
-        </svg>
-        <span class="text-small">上一篇</span>
-      </div>
-      <div>未命名</div>
-    </a>
-  
-  <div class="vhr"></div>
-  
-    <div class="post-nav-item-right"></div>
-  
-</div>
-
+      DEBUG: 该子夜分类下没有文章！在指定文章头部中添加 category: page1 字段，即可将该文章添加至此页。
     
     
   </div>
@@ -248,8 +204,6 @@
     </div>
     
     
-  
-  
-
+    
   </body>
 </html>
