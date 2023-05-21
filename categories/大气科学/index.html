@@ -1,230 +1,163 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-  <head>
-    <meta charset="utf8" />
-    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <title>
-      
-         | Hexo
-      
-    </title>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
-    
-      <link rel="apple-touch-icon"
-            sizes="180x180"
-            href="/images/apple-touch-icon.png"/>
-    
-    
-      <link rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/images/favicon-32x32.png"/>
-    
-    
-      <link rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/images/favicon-16x16.png"/>
-    
-    
-      <link rel="mask-icon"
-            href="/images/logo.svg"
-            color=""/>
-    
-    
-    <link rel="stylesheet" type="text/css" href="/css/layout.css"/>
-    
-    
-  <link rel="stylesheet" type="text/css" href="/css/category.css" />
+<html lang="en">
 
-  <meta name="generator" content="Hexo 6.3.0"></head>
-  <body>
-    <div class="head">
-      <div class="nav">
-        <a href="/" class="nav-logo">
-          <img alt="logo" height="60px" width="60px" src="/images/logo.svg" />
-        </a>
-        <input id="navBtn" type="checkbox"/>
-        <div class="nav-menu">
-          
-            
-              <a class="nav-menu-item" href="/%E5%A4%A7%E6%B0%94%E7%A7%91%E5%AD%A6">Atmosphere Science</a>
-            
-              <a class="nav-menu-item" href="/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%83%B3">Life Thinking</a>
-            
-          
-        </div>
-        <label class="nav-btn" for="navBtn"></label>
-      </div>
-    </div>
-    <div class="body">
-      
-  <div class="wall wall-category">
-    <div class="wall-main">
-      <div class="wall-category-title">
-        <div class="title-icon"
-             style="background-image: url(/)"></div>
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="John Doe">
+
+
+
+
+
+<title>Category: 大气科学 | Hexo</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
         
-      </div>
-      <div class="wall-category-description"></div>
-      <div class="wall-category-tags">
-        <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.min.js"></script>
-        <script type = "text/javascript">
-          window.onload = function() {
-              try {
-                  TagCanvas.Start('tagCanvas', '', {
-                      outlineThickness: 1,
-                      maxSpeed: 0.03,
-                      // freezeActive: true,
-                      // freezeDecel: true,
-                      textColour: null,
-                      textColour: null,
-                      outlineColour: "#aaa",
-                      weight: true,
-                      padding: 4,
-                      // clickToFront: 200,
-                      fadIn: 200,
-                      // pinchZoom: true,
-                      wheelZoom: false,
-                      initial: [0.1, -0.03]
-                  });
-              } catch (e) {
-                  // something went wrong, hide the canvas container
-                  document.getElementById('tags-outer').style.display = 'none';
-              }
-          };
-        </script>
-        <div id="tags-outer">
-          <canvas width="500" height="500" id="tagCanvas">
-            
-              <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%A7%E6%B0%94%E7%A7%91%E5%AD%A6/" rel="tag">大气科学</a><span class="tag-list-count">1</span></li></ul>
-            
-          </canvas>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="post-list">
     
-      
-        <div class="post-card">
-          <div class="post__head">
-            <a href="/2023/05/21/Gill%20Model%E8%A7%A3%E8%AF%BB(%E9%9D%9E%E5%8E%9F%E6%96%87)/" class="post-title hover-line">Gill Model 笔记(作业)</a>
-          </div>
-          <div class="post__body">
-            
-            <div class="post-excerpt"></div>
-          </div>
-          <div class="post__foot">
-            <div class="post-tags">
-  
-    <a href="/tags/%E5%A4%A7%E6%B0%94%E7%A7%91%E5%AD%A6/" class="post-tag">#大气科学</a>
-  
 
-</div>
-          </div>
-        </div>
-      
-    
-    
-  </div>
 
-    </div>
-    <div class="foot">
-      <div class="foot-inner">
-        <div class="foot__head">
-          
-            <div class="foot-line">
-              <div class="matts">海</div><div class="matts">内</div><div class="matts">存</div><div class="matts">知</div><div class="matts">己</div>
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+    <script>
+        // this function is used to check current theme before page loaded.
+        (() => {
+            const currentTheme = window.localStorage && window.localStorage.getItem('theme') || '';
+            const isDark = currentTheme === 'dark';
+            const pagebody = document.getElementsByTagName('body')[0]
+            if (isDark) {
+                pagebody.classList.add('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Dark"
+            } else {
+                pagebody.classList.remove('dark-theme');
+                // mobile
+                document.getElementById("mobile-toggle-theme").innerText = "· Light"
+            }
+        })();
+    </script>
+
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Bentham&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
             </div>
-          
-            <div class="foot-line">
-              <div class="matts">天</div><div class="matts">涯</div><div class="matts">若</div><div class="matts">比</div><div class="matts">邻</div>
-            </div>
-          
         </div>
-        <div class="foot__body">
-          
-            <div class="foot-item">
-              <div class="foot-item__head">朋友</div>
-              <div class="foot-item__body">
-                
-                  <div class="text">
-                    <img alt="link"
-                         height="20px"
-                         width="20px"
-                         src="/images/icon/icon-link.svg"/>
-                    <a class="foot-link" target="_blank" rel="noopener" href="https://github.com/hooozen/hexo-theme-tranquility">Theme Tranquility</a>
-                  </div>
-                
-                <div class="text">
-                  <img alt="link"
-                       height="20px"
-                       width="20px"
-                       src="/images/icon/icon-link+.svg"/>
-                  <a class="foot-link"
-                     href="mailto:2892706668@qq.com?subject=%E7%94%B3%E8%AF%B7%20Hozen.site%20%E7%9A%84%E5%8F%8B%E9%93%BE%E4%BD%8D%E7%BD%AE">
-                  申请友链</a>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Bentham&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
                 </div>
-              </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
             </div>
-          
-          
-            <div class="foot-item">
-              <div class="foot-item__head">账号</div>
-              <div class="foot-item__body">
+            <div class="menu" id="mobile-menu">
                 
-                  <div class="text">
-                    <img alt="link" height="20px" width="20px" src="/images/logo-github.svg"/>
-                    <a class="foot-link" target="_blank" rel="noopener" href="https://github.com/">github</a>
-                  </div>
+                    <a class="menu-item" href="/archives">Posts</a>
                 
-                  <div class="text">
-                    <img alt="link" height="20px" width="20px" src="/images/logo-wx.svg"/>
-                    <a class="foot-link" target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzI3NzQ4NDkzNg==&mid=2247484469&idx=1&sn=8a442bb67397f52cce5c38c3f9b41e36&chksm=eb64c0d2dc1349c40d2e1bb55615ae28b3f2951be22f00717b9ade98c851082e42dc666ab45d#rd">微信公众号</a>
-                  </div>
+                    <a class="menu-item" href="/category">Categories</a>
                 
-                  <div class="text">
-                    <img alt="link" height="20px" width="20px" src="/images/logo-zh.svg"/>
-                    <a class="foot-link" target="_blank" rel="noopener" href="https://www.zhihu.com/">知乎</a>
-                  </div>
+                    <a class="menu-item" href="/tag">Tags</a>
                 
-              </div>
+                    <a class="menu-item" href="/about">About</a>
+                
             </div>
-          
-          <div class="foot-item">
-            <div class="foot-item__head">联系</div>
-            <div class="foot-item__body">
-              <div class="text">
-                <img alt="link"
-                     height="20px"
-                     width="20px"
-                     src="/images/icon/icon-email.svg"/>
-                <a class="foot-link" href="mailto:2892706668@qq.com">2892706668@qq.com</a>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="copyright">
-          <a href="http://qiudaogongshu.top">Hexo</a> &nbsp;|&nbsp;由&nbsp;<a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>&nbsp;及&nbsp;
-          <svg width="20" height="20" viewBox="0 0 725 725">
-            <path fill-rule="evenodd" fill="rgb(221, 221, 221)"
-            d="M145.870,236.632 L396.955,103.578 L431.292,419.44 L156.600,522.53 L145.870,236.632 Z" />
-            <path fill-rule="evenodd" fill="rgb(159, 159, 159)"
-            d="M396.955,103.578 L564.345,234.486 L611.558,513.469 L431.292,419.44 L396.955,103.578 Z" />
-            <path fill-rule="evenodd" fill="rgb(0, 0, 0)"
-            d="M431.292,419.44 L611.558,513.469 L358.327,595.18 L156.600,522.53 L431.292,419.44 Z" />
-          </svg>
-          <a target="_blank" rel="noopener" href="https://github.com/hooozen/hexo-theme-tranquility">致远</a>&nbsp;驱动
-        </div>
-      </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+            <div class="main">
+                
+
+
+    
+<div class="container">
+    <div class="post-wrap categories">
+        <h2 class="post-title">-&nbsp;Categories&nbsp;·&nbsp;大气科学-</h2>
     </div>
-    
-      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <div class="post-wrap archive">
     
     
+        
+
+        
+            <h3>2023</h3>
+        
+
+        <article class="archive-item">
+            <a class="archive-item-link" href="/2023/05/21/Gill%20Model%E8%A7%A3%E8%AF%BB(%E9%9D%9E%E5%8E%9F%E6%96%87)/">Gill Model 笔记(作业)</a>
+            <span class="archive-item-date">May 21, 2023</span>
+        </article>
     
-  </body>
+    
+</div>
+</div>
+
+            </div>
+            <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© John Doe | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+
 </html>
