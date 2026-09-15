@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff1893;
+  background: #ffe2fb;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2313,16 +2313,18 @@ embed {
   color: #555;
   text-align: center !important;
 }
+.research-title {
+  text-align: center;
+}
+.research-title p {
+  margin: 0.3em 0;
+}
+.research-title h2 {
+  margin: 0.2em 0;
+}
 .header-inner {
   padding-top: 100px;
 }
 .content {
   padding-top: 10px;
-}
-.home-intro {
-  width: 100%;
-  margin: 0 auto;
-  padding: 1em 1em;
-  box-sizing: border-box;
-  text-align: center !important;
 }
