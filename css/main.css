@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #456b8e;
+  background: #0eeb21;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2289,6 +2289,9 @@ embed {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+/* =========================================================
+   Home Introduction
+   ========================================================= */
 .home-intro {
   width: 100%;
   margin: 1em auto 0;
@@ -2322,78 +2325,72 @@ embed {
 .research-title h2 {
   margin: 0.2em 0;
 }
-.header-inner {
-  padding-top: 100px;
-}
-.content {
-  padding-top: 10px;
-}
-/* ================================
-   Header / Menu
-   ================================ */
-/* C.J.Wang 整体向上移动 */
-.site-meta {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-/* Menu 字体放大 */
-.menu .menu-item a {
-  font-size: 18px;
-}
-/* Menu 项之间的距离 */
-.menu .menu-item {
-  margin: 0 8px;
-}
-/* Menu 图标大小 */
-.menu .menu-item a i {
-  font-size: 16px;
-}
-/* Menu 整体稍微向上 */
-.site-nav {
-  margin-top: -5px;
-}
 /* =========================================================
-   Menu Banner
+   Header
    ========================================================= */
-.header {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
+/* 去掉之前的 100px 顶部空白 */
 .header-inner {
   width: 100%;
   max-width: none;
   margin: 0;
   padding: 0;
 }
+/* =========================================================
+   Menu Banner
+   ========================================================= */
+/* 整条横幅 */
 .site-nav {
   width: 100%;
   margin: 0;
   padding: 0;
   background: #f5f5f5;
 }
+/* Menu 整体 */
 .menu {
   width: 100%;
   margin: 0;
   padding: 0;
   text-align: center;
 }
+/* 每一个 Menu 项 */
 .menu .menu-item {
   display: inline-block;
   margin: 0;
   padding: 0;
 }
+/* Menu 文字 */
 .menu .menu-item a {
   display: block;
-  padding: 18px 24px;
-  font-size: 17px;
+  padding: 6px 6px;
+  font-size: 12px;
 }
+/* Menu 图标 */
 .menu .menu-item a i {
   font-size: 16px;
 }
 /* =========================================================
-   隐藏 C.J.Wang / A graduate student
+   隐藏默认站点标题
+   C.J.Wang
+   A graduate student
    ========================================================= */
 .site-meta {
   display: none;
+}
+/* =========================================================
+   Content
+   ========================================================= */
+.content {
+  padding-top: 10px;
+}
+/* =========================================================
+   Hide NexT Sidebar
+   ========================================================= */
+.sidebar {
+  display: none !important;
+}
+.main {
+  width: 100%;
+}
+.content-wrap {
+  width: 100%;
 }
