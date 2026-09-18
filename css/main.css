@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff8;
+  background: #e0ff34;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1411,7 +1411,7 @@ pre .javascript .function {
   width: 100%;
 }
 .with-love {
-  color: #ff0000;
+  color: #9bb7d4;
   display: inline-block;
   margin: 0 5px;
 }
@@ -2450,4 +2450,10 @@ body {
 }
 .footer a:hover {
   color: #fff;
+}
+/* =========================================================
+   Page Background
+   ========================================================= */
+body {
+  background: #eef3f8;
 }
