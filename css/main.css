@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff0fc3;
+  background: #ff8;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2343,7 +2343,7 @@ embed {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: #f5f5f5;
+  background: #53698f;
 }
 /* Menu 整体 */
 .menu {
@@ -2363,10 +2363,25 @@ embed {
   display: block;
   padding: 6px 6px;
   font-size: 12px;
+  color: #f4f6f9;
 }
 /* Menu 图标 */
 .menu .menu-item a i {
   font-size: 16px;
+  color: #fff;
+}
+/* Menu hover */
+.menu .menu-item a {
+  transition: all 0.25s ease;
+  border-radius: 4px;
+}
+.menu .menu-item a:hover {
+  color: #fff;
+  background: #435775;
+  box-shadow: inset 0 -2px 0 #9bb7d4;
+}
+.menu .menu-item a:hover i {
+  color: #9bb7d4;
 }
 /* =========================================================
    隐藏默认站点标题
@@ -2398,4 +2413,41 @@ body {
 }
 .main {
   flex: 1;
+}
+/* =========================================================
+   Post Meta + Tags
+   ========================================================= */
+/* 文章日期 / 分类 */
+.post-header .post-meta {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.5;
+}
+/* Tags */
+.post-header .post-tags {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.5;
+}
+/* Tags 之间的横向距离 */
+.post-header .post-tags a {
+  margin-right: 8px;
+}
+/* =========================================================
+   Footer Bar
+   ========================================================= */
+.footer {
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  background: #53698f;
+  color: #f4f6f9;
+  text-align: center;
+  box-sizing: border-box;
+}
+.footer a {
+  color: #f4f6f9;
+}
+.footer a:hover {
+  color: #fff;
 }
