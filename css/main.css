@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #0eeb21;
+  background: #e9c8a2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2383,14 +2383,19 @@ embed {
   padding-top: 10px;
 }
 /* =========================================================
-   Hide NexT Sidebar
+   Sticky Footer
    ========================================================= */
-.sidebar {
-  display: none !important;
+html {
+  min-height: 100%;
+}
+body {
+  min-height: 100vh;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .main {
-  width: 100%;
-}
-.content-wrap {
-  width: 100%;
+  flex: 1;
 }
