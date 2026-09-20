@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff60ab;
+  background: #5932ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2456,4 +2456,189 @@ body {
    ========================================================= */
 body {
   background: #eef3f8;
+}
+/* ========================================
+   Orange Heart 风格文章正文
+   ======================================== */
+.post-body {
+  max-width: 860px;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.6;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  letter-spacing: 0;
+/* 标题 */
+/* 列表 */
+/* 引用 */
+/* 链接 */
+/* 行内代码 */
+/* 图片 */
+/* 表格 */
+/* 脚注 */
+/* 代码块 */
+}
+.post-body p {
+  margin: 0;
+  padding: 0.5rem 0;
+  line-height: 1.5rem;
+  color: #000;
+}
+.post-body h1,
+.post-body h2,
+.post-body h3,
+.post-body h4,
+.post-body h5,
+.post-body h6 {
+  margin: 1.2em 0 1em;
+  padding: 0;
+  font-weight: bold;
+  color: #000;
+}
+.post-body h1 {
+  font-size: 1.5rem;
+}
+.post-body h2 {
+  position: relative;
+  display: inline-block;
+  margin-top: 1.8em;
+  margin-bottom: 1.2em;
+  padding: 3px 10px 3px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #fff;
+  background: #ef7060;
+  border-radius: 3px;
+}
+.post-body h2:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 1.25rem solid #efebe9;
+  border-right: 1.25rem solid transparent;
+}
+.post-body h3 {
+  font-size: 1.3rem;
+}
+.post-body h4 {
+  font-size: 1.2rem;
+}
+.post-body h5 {
+  font-size: 1.1rem;
+}
+.post-body h6 {
+  font-size: 1rem;
+}
+.post-body ul,
+.post-body ol {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-left: 25px;
+  color: #000;
+}
+.post-body ul {
+  list-style-type: disc;
+}
+.post-body ul ul {
+  list-style-type: square;
+}
+.post-body ol {
+  list-style-type: decimal;
+}
+.post-body li {
+  margin: 5px 0;
+  line-height: 1.7rem;
+  color: #000;
+}
+.post-body blockquote {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 10px 10px 20px;
+  overflow: auto;
+  font-size: 0.9em;
+  color: #6a737d;
+  background: #fff9f9;
+  border-left: 3px solid #ef7060;
+}
+.post-body blockquote p {
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+}
+.post-body a {
+  color: #ef7060;
+  font-weight: bold;
+  text-decoration: none;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  border-bottom: 1px solid #ef7060;
+}
+.post-body a:hover {
+  color: #dc5a4b;
+  border-bottom-color: #dc5a4b;
+}
+.post-body p code,
+.post-body li code {
+  padding: 2px 4px;
+  margin: 0 2px;
+  font-size: 0.9rem;
+  color: #ef7060;
+  background-color: rgba(27,31,35,0.05);
+  border-radius: 4px;
+  font-family: Operator Mono, Consolas, Monaco, Menlo, monospace;
+  word-break: break-all;
+}
+.post-body img {
+  display: block;
+  max-width: 100%;
+  margin: 1em auto;
+}
+.post-body table {
+  display: table;
+  width: 100%;
+  margin: 1em 0;
+  text-align: left;
+}
+.post-body tbody {
+  border: 0;
+}
+.post-body tr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+.post-body tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.post-body th,
+.post-body td {
+  padding: 5px 10px;
+  font-size: 1rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+.post-body th {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+.post-body .footnote-ref,
+.post-body .md-footnote {
+  font-weight: bold;
+  color: #ef7060;
+}
+.post-body pre {
+  margin: 1.2em 0;
+  padding: 0;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+.post-body pre code {
+  display: block;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 5px;
 }
